@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* base style */
+
+body{
+    background-color: #f4f1de;
+    font-family: 'DejaVu Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    width: 80%;
+    font-size: 175%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+section{
+    width: 99%;
+    margin: auto;    
+}
+
+div{
+    width: 80%;
+    border: 3px solid black;
+    position: relative;
+}
+
+
+.div1,.div2, .div3{
+    background-color: #adb5bd;
+}
+
+p{
+    font-size: 1em;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 125%;
+    position: relative;
+    float: right;
+    margin: 0px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+.div1 > h2{
+    background-color: #e9c46a;
+}
+.div2 > h2{
+    background-color: #457b9d;
+}
+.div3 > h2{
+    background-color: #06d6a0;
+}
+
+/* for large devices which have 992px and above width*/
+@media (min-width: 992px){
+    div{
+        float: left;
+    }
+    .div1, .div3{
+        width: 30.66%;
+        margin: 10px 2%;
+    }
+    .div2{
+        width: 30.66%;
+        margin: 10px 0%;
+    }
+}
+
+/* for medium sized devices which have width between 768px and 991px inclusive */
+@media (min-width:768px) and (max-width:991px){
+    div{
+        float: left;
+    }
+    .div1{
+        width: 47%;
+        margin: 20px 2%;
+    }
+    .div2{
+        width: 47%;
+        margin-right: 2%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .div3{
+        width: 96.68%;
+        margin: 0px 1.66%;
+    }
+}
+
+/* for small devices which have width 767px and less */
+@media (max-width: 767px){
+    div{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
