@@ -26,7 +26,7 @@ section{
 
 div{
     width: 80%;
-    border: 3px solid black;
+    border: 1px solid black;
     position: relative;
 }
 
@@ -47,8 +47,8 @@ h2{
     position: relative;
     float: right;
     margin: 0px;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     width: 150px;
     text-align: center;
 }
