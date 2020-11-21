@@ -32,6 +32,24 @@ header div nav button {
    margin: .5rem 1rem;
 }
 
-header div nav div{
+header div nav div ul li{
+    margin:0.5rem;
+}
+
+header div nav div ul li{
+    border:solid 1px #FFFCF2;
+    border-radius: 3px;
+}
+
+
+#underline{
+    height: 3px;
+    width: 90px;
     background-color: #0081A7;
+    margin: 0 auto 0.6rem;
+}
+
+#main-text{
+    background-color: #CCC5B9;
+    border-radius: 5px;
 }
